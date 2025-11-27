@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaveLearn - Master Tech Skills | Web Development & Cybersecurity</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- WhatsApp Floating Icon -->
+    <div class="floating-icons">
+        <a href="https://wa.me/09031538922" class="floating-icon whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span class="tooltip">Chat on WhatsApp</span>
+        </a>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home" class="nav-logo-link">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>DaveLearn</span>
+                    </a>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#courses" class="nav-link">Courses</a>
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#success" class="nav-link">Success Stories</a>
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                    <div class="nav-buttons">
+                        <a href="#login" class="btn btn-outline">Login</a>
+                        <a href="#register" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <i class="fas fa-rocket"></i>
+                        <span>Join 10,000+ Successful Students</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Master <span class="text-gradient">In-Demand Tech Skills</span> That Get You Hired
+                    </h1>
+                    <p class="hero-description">
+                        Transform your career with industry-leading courses in Web Development, Cybersecurity, 
+                        Data Science and more. Learn from experts, build real projects, and get hired.
+                    </p>
+                    
+                    <div class="hero-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>98% Job Placement Rate</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>1-on-1 Mentorship</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Money Back Guarantee</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="#courses" class="btn btn-primary btn-large">
+                            <i class="fas fa-play-circle"></i>
+                            Explore Courses
+                        </a>
+                        <a href="#register" class="btn btn-secondary btn-large">
+                            <i class="fas fa-calendar"></i>
+                            Free Trial Lesson
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3>10K+</h3>
+                            <p>Students Trained</p>
+                        </div>
+                        <div class="stat">
+                            <h3>98%</h3>
+                            <p>Completion Rate</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4.9/5</h3>
+                            <p>Student Rating</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="hero-card">
+                        <div class="card-header">
+                            <div class="card-avatar">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <div class="card-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Web Developer at Google</p>
+                            </div>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <p class="card-text">
+                            "DaveLearn helped me transition from retail to a $85k tech job in just 6 months! The project-based learning was incredible."
+                        </p>
+                        <div class="card-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 85%"></div>
+                            </div>
+                            <span>Course Progress: 85%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="trusted-by">
+        <div class="container">
+            <p class="trusted-text">Trusted by students from companies like</p>
+            <div class="companies">
+                <div class="company">Google</div>
+                <div class="company">Microsoft</div>
+                <div class="company">Amazon</div>
+                <div class="company">Meta</div>
+                <div class="company">Netflix</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why DaveLearn Works</h2>
+                <p class="section-subtitle">We've helped thousands of students launch successful tech careers</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Project-Based Learning</h3>
+                    <p>Build 10+ real-world projects for your portfolio that impress employers</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Hands-on coding exercises</li>
+                        <li><i class="fas fa-check"></i> Portfolio-ready projects</li>
+                        <li><i class="fas fa-check"></i> Code reviews by experts</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Expert Mentorship</h3>
+                    <p>Learn from industry professionals with 5+ years of real-world experience</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> 1-on-1 weekly sessions</li>
+                        <li><i class="fas fa-check"></i> Career guidance</li>
+                        <li><i class="fas fa-check"></i> Interview preparation</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Career Support</h3>
+                    <p>Get hired with our comprehensive career services and job placement help</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Resume building</li>
+                        <li><i class="fas fa-check"></i> Mock interviews</li>
+                        <li><i class="fas fa-check"></i> Job referrals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Popular Courses</h2>
+                <p class="section-subtitle">Master the most in-demand tech skills of 2024</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Web Development Course" class="course-img">
+                        <div class="course-badge">Most Popular</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">Development</div>
+                        <h3 class="course-title">Full Stack Web Development</h3>
+                        <p class="course-description">
+                            Master HTML, CSS, JavaScript, React, Node.js, and MongoDB to build modern web applications from scratch. Build 10+ real projects.
+                        </p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 12 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Beginner</span>
+                            <span><i class="fas fa-star"></i> 4.9</span>
+                        </div>
+                        <div class="course-instructor">
+                            <div class="instructor-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <span>David Wilson - Senior Developer</span>
+                        </div>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price-old">$299</span>
+                                <span class="price-new">$199</span>
+                            </div>
+                            <a href="#register" class="btn btn-course">
+                                <i class="fas fa-shopping-cart"></i>
+                                Enroll Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Cybersecurity Course" class="course-img">
+                        <div class="course-badge">Trending</div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">Security</div>
+                        <h3 class="course-title">Cybersecurity & Ethical Hacking</h3>
+                        <p class="course-description">
+                            Learn to protect systems, networks, and data from cyber threats. Master penetration testing, security protocols, and ethical hacking.
+                        </p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 16 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Intermediate</span>
+                            <span><i class="fas fa-star"></i> 4.8</span>
+                        </div>
+                        <div class="course-instructor">
+                            <div class="instructor-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <span>Sarah Chen - Security Expert</span>
+                        </div>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price-old">$349</span>
+                                <span class="price-new">$249</span>
+                            </div>
+                            <a href="#register" class="btn btn-course">
+                                <i class="fas fa-shopping-cart"></i>
+                                Enroll Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Data Science Course" class="course-img">
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">Data Science</div>
+                        <h3 class="course-title">Data Science & Machine Learning</h3>
+                        <p class="course-description">
+                            Master Python, statistics, machine learning, and data visualization to become a data scientist. Work with real datasets and build ML models.
+                        </p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 14 Weeks</span>
+                            <span><i class="fas fa-user-graduate"></i> Intermediate</span>
+                            <span><i class="fas fa-star"></i> 4.7</span>
+                        </div>
+                        <div class="course-instructor">
+                            <div class="instructor-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <span>Mike Rodriguez - Data Scientist</span>
+                        </div>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price-old">$379</span>
+                                <span class="price-new">$279</span>
+                            </div>
+                            <a href="#register" class="btn btn-course">
+                                <i class="fas fa-shopping-cart"></i>
+                                Enroll Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="courses-cta">
+                <a href="#courses" class="btn btn-outline">
+                    <i class="fas fa-book-open"></i>
+                    View All Courses
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories -->
+    <section id="success" class="success-stories">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Success Stories</h2>
+                <p class="section-subtitle">See how our students transformed their careers</p>
+            </div>
+            <div class="stories-grid">
+                <div class="story-card">
+                    <div class="story-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"After being stuck in retail for 5 years, DaveLearn gave me the skills to land a $85k remote developer job. The mentorship was incredible!"</p>
+                    </div>
+                    <div class="story-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div>
+                            <h4>ThankGod Akaka</h4>
+                            <p>Web Developer at Google</p>
+                            <div class="salary">$9,000 • 6 months</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="story-card">
+                    <div class="story-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"The cybersecurity course prepared me for real-world challenges. I doubled my salary and now work as a security analyst at a Fortune 500 company."</p>
+                    </div>
+                    <div class="story-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div>
+                            <h4>John Akpan</h4>
+                            <p>Security Analyst at Microsoft</p>
+                            <div class="salary">$5,000 • 8 months</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="story-card">
+                    <div class="story-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"As a complete beginner, I was nervous about coding. The structured curriculum and supportive community made all the difference. Now I'm a full-time developer!"</p>
+                    </div>
+                    <div class="story-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div>
+                            <h4>Ekemini Etuck</h4>
+                            <p>Frontend Developer at Netflix</p>
+                            <div class="salary">$40,000 • 7 months</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Simple, Transparent Pricing</h2>
+                <p class="section-subtitle">Choose the plan that works best for your learning journey</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">20</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Access to all courses</li>
+                        <li><i class="fas fa-check"></i> Community support</li>
+                        <li><i class="fas fa-times"></i> 1-on-1 mentorship</li>
+                        <li><i class="fas fa-times"></i> Career services</li>
+                        <li><i class="fas fa-times"></i> Certificate</li>
+                    </ul>
+                    <a href="#register" class="btn btn-outline btn-full">Get Started</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">40</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Access to all courses</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                        <li><i class="fas fa-check"></i> 1-on-1 mentorship</li>
+                        <li><i class="fas fa-check"></i> Career services</li>
+                        <li><i class="fas fa-times"></i> Certificate</li>
+                    </ul>
+                    <a href="#register" class="btn btn-primary btn-full">Get Started</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">100</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Access to all courses</li>
+                        <li><i class="fas fa-check"></i> 24/7 support</li>
+                        <li><i class="fas fa-check"></i> Dedicated mentor</li>
+                        <li><i class="fas fa-check"></i> Premium career services</li>
+                        <li><i class="fas fa-check"></i> Verified certificate</li>
+                    </ul>
+                    <a href="#register" class="btn btn-outline btn-full">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Get answers to common questions about DaveLearn</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do I need prior experience to start?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No prior experience is required! Our courses are designed for complete beginners. We start with the fundamentals and gradually progress to advanced topics.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does it take to complete a course?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Most students complete our courses in 3-6 months studying 10-15 hours per week. However, you can learn at your own pace as all courses are self-paced.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What kind of support do I get?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You get access to our student community, weekly Q&A sessions, 1-on-1 mentorship (depending on your plan), and direct support from instructors.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is there a money-back guarantee?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer a 7-day money-back guarantee. If you're not satisfied with the course in the first week, we'll give you a full refund.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="register">
+        <div class="container">
+            <div class="register-grid">
+                <div class="register-content">
+                    <h2>Ready to Start Your Tech Journey?</h2>
+                    <p>Join thousands of students who have transformed their lives with DaveLearn. Start your journey today.</p>
+                    <div class="register-features">
+                        <div class="register-feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>7-Day Money Back Guarantee</h4>
+                                <p>Try risk-free with our satisfaction guarantee</p>
+                            </div>
+                        </div>
+                        <div class="register-feature">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Industry-Recognized Certificates</h4>
+                                <p>Get certified and stand out to employers</p>
+                            </div>
+                        </div>
+                        <div class="register-feature">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <h4>Career Support</h4>
+                                <p>Get help with job placement and interviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="register-form-container">
+                    <form class="register-form" id="registrationForm">
+                        <h3>Start Learning Today</h3>
+                        <div class="form-group">
+                            <input type="text" placeholder="Full Name" required>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Course</option>
+                                <option value="web-dev">Web Development</option>
+                                <option value="cybersecurity">Cybersecurity</option>
+                                <option value="data-science">Data Science</option>
+                                <option value="mobile-dev">Mobile Development</option>
+                            </select>
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-rocket"></i>
+                            Start Learning Now
+                        </button>
+                        <p class="form-note">By registering, you agree to our Terms and Privacy Policy</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        DaveLearn
+                    </div>
+                    <p>Empowering students with practical tech skills for the modern workforce since 2020.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Courses</h4>
+                    <ul>
+                        <li><a href="#courses">Web Development</a></li>
+                        <li><a href="#courses">Cybersecurity</a></li>
+                        <li><a href="#courses">Data Science</a></li>
+                        <li><a href="#courses">Mobile Development</a></li>
+                        <li><a href="#courses">Cloud Computing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#press">Press</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#help">Help Center</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#refund">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 4Lane, Uyo, Akwa Ibom</p>
+                        <p><i class="fas fa-phone"></i> +234 903 153 8922</p>
+                        <p><i class="fas fa-envelope"></i> hello@davelearn.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DaveLearn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
